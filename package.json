@@ -1,6 +1,6 @@
 {
 	"name": "com.jacklite.modules_framework_unity_package",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "Simple and powerfull framework with ECS design.",
 	"displayName": "Modules Framework for Unity",
 	"unity": "2021.3",
