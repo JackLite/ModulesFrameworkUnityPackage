@@ -293,6 +293,7 @@ namespace ModulesFramework.Data
         public void CreateOneData<T>() where T : struct
         {
             _oneDatas[typeof(T)] = new EcsOneData<T>();
+            OnOneDataCreated?.Invoke(typeof(T), _oneDatas[typeof(T)]);
         }
 
         /// <summary>

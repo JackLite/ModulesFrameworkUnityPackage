@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace ModulesFrameworkUnity.Debug
 {
@@ -113,6 +114,14 @@ namespace ModulesFrameworkUnity.Debug
                 return true;
             }
             
+            if (fieldValue.GetType().IsSubclassOf(typeof(Object)))
+            {
+                EditorGUILayout.BeginVertical(OneFieldStyle(level));
+                EditorGUILayout.ObjectField(fieldName, (Object)fieldValue, fieldValue.GetType(), true);
+                EditorGUILayout.EndVertical();
+                return true;
+            }
+
             if (fieldValue is Vector3)
             {
                 EditorGUILayout.BeginVertical(OneFieldStyle(level));
@@ -160,8 +169,11 @@ namespace ModulesFrameworkUnity.Debug
         private void DrawSimple(string fieldName, object fieldValue, int level)
         {
             if (!fieldValue.GetType().IsPrimitive)
-                throw new ArgumentException(
-                    $"Field {fieldName} is not primitive, but {fieldValue.GetType()}");
+            {
+                UnityEngine.Debug.LogWarning($"Type {fieldValue.GetType()} is not supported yet");
+                return;
+            }
+
             var style = OneFieldStyle(level);
             EditorGUILayout.BeginVertical(style);
             switch (fieldValue)

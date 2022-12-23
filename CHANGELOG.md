@@ -1,5 +1,8 @@
+v0.4.1:
+- Fix support GameObject in debug
+
 v0.4.0:
-- EcsOneData now lives in DataWorld. You still can get them by private fields in your system. But you should user DataWorld.GetOneData<T>() in future.
+- EcsOneData now lives in DataWorld. You still can get them by private fields in your system. But you should use DataWorld.GetOneData<T>() in future.
 - First iteration of debug for Unity Engine. You can see all created Entities with all Components. It shows simple types (including Enum), IEnumerable and IDictionary collections, VectorX, Quaternion (euler angles) and Unity Objects (like GameObject and MonoBehaviour)
 
 v0.3.0:
