@@ -1,3 +1,7 @@
+v0.4.3:
+- Fix recreating one data
+- Add generation for one data
+
 v0.4.2:
 - Fix support string in debug
 - Improvement of one data
