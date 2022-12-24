@@ -26,9 +26,6 @@ namespace ModulesFrameworkUnity.Debug
             if (TryDrawUnity(fieldName, fieldValue, level))
                 return;
 
-            if (TryDrawContainer(component, fieldName, fieldValue, ref level))
-                return;
-
             if (fieldValue is string)
             {
                 EditorGUILayout.BeginVertical(OneFieldStyle(level));
@@ -36,6 +33,9 @@ namespace ModulesFrameworkUnity.Debug
                 EditorGUILayout.EndVertical();
                 return;
             }
+
+            if (TryDrawContainer(component, fieldName, fieldValue, ref level))
+                return;
 
             if (fieldValue.GetType().IsEnum)
             {

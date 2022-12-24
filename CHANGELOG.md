@@ -1,3 +1,7 @@
+v0.4.2:
+- Fix support string in debug
+- Improvement of one data
+
 v0.4.1:
 - Fix support GameObject in debug
 

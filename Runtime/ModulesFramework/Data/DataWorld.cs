@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using JetBrains.Annotations;
+#if MODULES_DEBUG
+using ModulesFramework.Exceptions;
+#endif
 using ModulesFramework.Modules;
 
 namespace ModulesFramework.Data
@@ -72,7 +74,7 @@ namespace ModulesFramework.Data
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public int[] GetLinearData<T>() where T : struct
+        internal int[] GetLinearData<T>() where T : struct
         {
             return GetEscTable<T>().GetEntitiesId();
         }
@@ -309,19 +311,42 @@ namespace ModulesFramework.Data
             _oneDatas[typeof(T)] = oneData;
             OnOneDataCreated?.Invoke(typeof(T), oneData);
         }
-        
-        public OneData? GetOneData(Type t)
+
+        internal OneData? GetOneData(Type containerType)
         {
-            var dataType = t.GetGenericArguments()[0];
+            var dataType = containerType.GetGenericArguments()[0];
             if (_oneDatas.ContainsKey(dataType))
                 return _oneDatas[dataType];
 
             return null;
         }
 
-        public EcsOneData<T>? GetOneData<T>() where T : struct
+        /// <summary>
+        /// Allow to get one data container by type
+        /// If one data component does not exist it create it
+        /// </summary>
+        /// <typeparam name="T">Type of one data</typeparam>
+        /// <returns>Generic container with one data</returns>
+        public EcsOneData<T> GetOneData<T>() where T : struct
         {
-            return (EcsOneData<T>)GetOneData(typeof(T));
+            var dataType = typeof(T);
+            if (!_oneDatas.ContainsKey(dataType))
+            {
+                CreateOneData<T>();
+            }
+            return (EcsOneData<T>)_oneDatas[dataType];
+        }
+
+        /// <summary>
+        /// Return ref to one data component by T
+        /// If one data component does not exist it create it
+        /// </summary>
+        /// <typeparam name="T">Type of one data</typeparam>
+        /// <returns>Ref to one data component</returns>
+        public ref T OneData<T>() where T : struct
+        {
+            var container = GetOneData<T>();
+            return ref container.GetData();
         }
     }
 }
