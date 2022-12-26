@@ -1,3 +1,6 @@
+v0.4.4:
+- Add support nested structs
+
 v0.4.3:
 - Fix recreating one data
 - Add generation for one data
