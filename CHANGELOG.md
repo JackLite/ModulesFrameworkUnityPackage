@@ -1,3 +1,6 @@
+v0.4.5
+- Fix editor scripts
+
 v0.4.4:
 - Add support nested structs
 
