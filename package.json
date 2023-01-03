@@ -4,6 +4,7 @@
   "description": "Simple and powerful framework with ECS design.",
   "displayName": "Modules Framework for Unity",
   "unity": "2021.3",
+  "documentationUrl": "https://github.com/JackLite/ModulesFramework#readme",
   "author": {
     "name" : "Jack Lite",
     "email" : "jackkdlite@gmail.com",
