@@ -1,4 +1,9 @@
-v0.4.5
+v0.4.6:
+- Query now IDisposable for zero-allocations;
+- Add SelectFirst<TRet> in Query;
+- Update documentation;
+
+v0.4.5:
 - Fix editor scripts
 
 v0.4.4:
