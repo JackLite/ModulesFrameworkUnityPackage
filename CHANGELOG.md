@@ -1,3 +1,8 @@
+v0.5.0:
+- Add event systems;
+- Add GetEcsTable<T> for fast iterations;
+- Add GetDependency<T> for third-party IoC;
+
 v0.4.6:
 - Query now IDisposable for zero-allocations;
 - Add SelectFirst<TRet> in Query;
