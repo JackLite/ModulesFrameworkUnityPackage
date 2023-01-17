@@ -1,3 +1,7 @@
+v0.5.1:
+- Add Query.SelectFirstEntity and Query.TrySelectFirstEntity;
+- Fix Query.Count with multiple With, Without and Where;
+
 v0.5.0:
 - Add event systems;
 - Add GetEcsTable<T> for fast iterations;
