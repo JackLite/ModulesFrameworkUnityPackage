@@ -1,3 +1,6 @@
+v0.5.2:
+- Fix using multiple queries with common main table;
+
 v0.5.1:
 - Add Query.SelectFirstEntity and Query.TrySelectFirstEntity;
 - Fix Query.Count with multiple With, Without and Where;
