@@ -1,3 +1,9 @@
+v0.6.0:
+- Add IModulesLogger and UnityLogger. You can use your own logger if need;
+- Add DataWorld.GetRawData<T>() for fast iterations;
+- Add Query.GetComponents<T> so you can iterate components in query without get them from entity or world;
+- Several minor fixes and improvements;
+
 v0.5.2:
 - Fix using multiple queries with common main table;
 
