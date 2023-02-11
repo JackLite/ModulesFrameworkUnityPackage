@@ -1,10 +1,10 @@
 {
   "name": "com.jacklite.modules_framework_unity_package",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Simple and powerful framework with ECS design.",
   "displayName": "Modules Framework for Unity",
   "unity": "2021.3",
-  "documentationUrl": "https://github.com/JackLite/ModulesFramework#readme",
+  "documentationUrl": "https://github.com/JackLite/ModulesFrameworkUnity#readme",
   "author": {
     "name" : "Jack Lite",
     "email" : "jackkdlite@gmail.com",

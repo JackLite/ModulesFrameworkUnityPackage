@@ -1,3 +1,9 @@
+v0.6.1:
+- Add settings for choose start method and log filter;
+- Add support for custom types in debug;
+- Add EntryPoint component for start MF by GameObject in concrete scene;
+- Some minor improvements;
+
 v0.6.0:
 - Add IModulesLogger and UnityLogger. You can use your own logger if need;
 - Add DataWorld.GetRawData<T>() for fast iterations;
