@@ -1,3 +1,6 @@
+v0.6.2:
+- OnActivate and OnDeactivate calls now after events systems registered, so it calls after module really fully activated/deactivated
+
 v0.6.1:
 - Add settings for choose start method and log filter;
 - Add support for custom types in debug;
