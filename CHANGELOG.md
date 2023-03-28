@@ -1,3 +1,6 @@
+v0.6.3:
+- bool Entity.IsAlive() method. It can be usefull when you store the entity and wants to check that it is still alive and this id was not reused
+
 v0.6.2:
 - OnActivate and OnDeactivate calls now after events systems registered, so it calls after module really fully activated/deactivated
 
