@@ -1,3 +1,7 @@
+v0.6.4:
+- Fix bug with multiple event systems
+- improvements for modules control
+
 v0.6.3:
 - bool Entity.IsAlive() method. It can be usefull when you store the entity and wants to check that it is still alive and this id was not reused
 
