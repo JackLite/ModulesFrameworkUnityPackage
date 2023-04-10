@@ -1,3 +1,6 @@
+v0.6.5:
+- Add performance log and settings for it
+
 v0.6.4:
 - Fix bug with multiple event systems
 - improvements for modules control
