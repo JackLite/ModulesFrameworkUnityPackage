@@ -1,3 +1,7 @@
+v0.6.6:
+- Add debug for modules
+- Remove warning when type not implemented for debug
+
 v0.6.5:
 - Add performance log and settings for it
 
