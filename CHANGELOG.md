@@ -1,3 +1,6 @@
+v0.7.0:
+- Add global systems. They work always and can't have dependency but DataWorld;
+
 v0.6.6:
 - Add debug for modules
 - Remove warning when type not implemented for debug
