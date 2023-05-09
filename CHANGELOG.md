@@ -1,3 +1,8 @@
+v0.8.0:
+- Add submodules to core
+- Add submodules debug
+- Improvements of custom drawers
+
 v0.7.0:
 - Add global systems. They work always and can't have dependency but DataWorld;
 
