@@ -1,3 +1,7 @@
+v0.8.1:
+- Fix activating module when it's already active;
+- GetModule<T> now can't return null, but throw exception if module not found;
+
 v0.8.0:
 - Add submodules to core
 - Add submodules debug
