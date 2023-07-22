@@ -1,3 +1,8 @@
+v0.9.0:
+- Multiple components added
+- Multiple worlds added
+- Several critical bugs fixed
+
 v0.8.1:
 - Fix activating module when it's already active;
 - GetModule<T> now can't return null, but throw exception if module not found;
