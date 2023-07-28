@@ -1,3 +1,6 @@
+v0.9.1:
+- Fix removing multiple components in foreach. Now you should use iterator for this
+
 v0.9.0:
 - Multiple components added
 - Multiple worlds added
