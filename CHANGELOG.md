@@ -1,3 +1,7 @@
+v1.0.0:
+- Add check if one data exists
+- Now you can change data in inspector
+
 v0.9.1:
 - Fix removing multiple components in foreach. Now you should use iterator for this
 
