@@ -1,3 +1,9 @@
+v1.0.1:
+- remove auto apply for changes for now;
+- fix applying changes;
+- add sorting for components in inspector;
+- add sorting for one data in hierarchy;
+
 v1.0.0:
 - Add check if one data exists
 - Now you can change data in inspector
