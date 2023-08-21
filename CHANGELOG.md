@@ -1,3 +1,6 @@
+v1.0.2:
+- fix inspector for OneData;
+
 v1.0.1:
 - remove auto apply for changes for now;
 - fix applying changes;
