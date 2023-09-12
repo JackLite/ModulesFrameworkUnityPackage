@@ -1,3 +1,6 @@
+v1.0.3:
+- fix GetComponents<T> in complex queries;
+
 v1.0.2:
 - fix inspector for OneData;
 
