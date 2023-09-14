@@ -1,3 +1,6 @@
+v1.0.4:
+- fix inject of EcsOneData<T> in fields of systems;
+
 v1.0.3:
 - fix GetComponents<T> in complex queries;
 
