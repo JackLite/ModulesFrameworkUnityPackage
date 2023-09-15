@@ -1,3 +1,6 @@
+v1.0.5:
+- check if entity viewer already created in unity adapter;
+
 v1.0.4:
 - fix inject of EcsOneData<T> in fields of systems;
 
