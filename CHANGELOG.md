@@ -1,3 +1,6 @@
+v1.0.6:
+- fix some adapter issues;
+
 v1.0.5:
 - check if entity viewer already created in unity adapter;
 
