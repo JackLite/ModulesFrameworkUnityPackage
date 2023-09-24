@@ -1,3 +1,6 @@
+v1.0.7:
+- exception in one system now will not prevent other systems from executing;
+
 v1.0.6:
 - fix some adapter issues;
 
