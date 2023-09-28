@@ -1,3 +1,7 @@
+v1.0.8:
+- free entity id now storages in queue instead of stack;
+- fix some errors in unity adapter;
+
 v1.0.7:
 - exception in one system now will not prevent other systems from executing;
 
