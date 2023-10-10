@@ -1,3 +1,6 @@
+v1.0.9:
+- fix bug when one data viewer created after play mode stopped
+
 v1.0.8:
 - free entity id now storages in queue instead of stack;
 - fix some errors in unity adapter;
