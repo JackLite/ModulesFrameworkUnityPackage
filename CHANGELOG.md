@@ -1,5 +1,8 @@
+v1.0.10:
+- fix bug with quaternions in debug;
+
 v1.0.9:
-- fix bug when one data viewer created after play mode stopped
+- fix bug when one data viewer created after play mode stopped;
 
 v1.0.8:
 - free entity id now storages in queue instead of stack;
