@@ -1,3 +1,6 @@
+v1.1.0:
+- add filter for Or operations in query;
+
 v1.0.10:
 - fix bug with quaternions in debug;
 
