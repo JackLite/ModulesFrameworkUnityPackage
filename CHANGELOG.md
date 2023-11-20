@@ -1,3 +1,6 @@
+v1.1.1:
+- fix bug with recuse removing of submodules;
+
 v1.1.0:
 - add filter for Or operations in query;
 
