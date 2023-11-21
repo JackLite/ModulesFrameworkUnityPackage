@@ -1,3 +1,6 @@
+v1.1.2:
+- Query.Where<T>() no check if T exists in table;
+
 v1.1.1:
 - fix bug with recuse removing of submodules;
 
