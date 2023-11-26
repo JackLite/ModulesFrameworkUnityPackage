@@ -1,3 +1,6 @@
+v1.1.3:
+- add ability to create custom index for components that dramatically increase speed of finding components and entity by custom index;
+
 v1.1.2:
 - Query.Where<T>() no check if T exists in table;
 
