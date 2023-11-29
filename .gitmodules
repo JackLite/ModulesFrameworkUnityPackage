@@ -6,3 +6,11 @@
 	path = Runtime/ModulesFrameworkUnity
 	url = https://github.com/JackLite/ModulesFrameworkUnity.git
 	branch = main
+[submodule "Runtime/MFHooks"]
+	path = Runtime/MFHooks
+	url = https://github.com/JackLite/MFHooks.git
+	branch = unity_branch
+[submodule "Runtime/MFEntityFilter"]
+	path = Runtime/MFEntityFilter
+	url = https://github.com/JackLite/MFEntityFilter.git
+	branch = unity_branch
