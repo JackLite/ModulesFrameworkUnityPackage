@@ -1,3 +1,7 @@
+v1.1.4:
+- add MFHooks extension for immediate events;
+- add MFEntityFilter extension for checking entity like a query;
+
 v1.1.3:
 - add ability to create custom index for components that dramatically increase speed of finding components and entity by custom index;
 
