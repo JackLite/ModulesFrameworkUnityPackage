@@ -1,3 +1,6 @@
+v1.1.5:
+- fix drawing of const fields in unity inspector
+
 v1.1.4:
 - add MFHooks extension for immediate events;
 - add MFEntityFilter extension for checking entity like a query;
