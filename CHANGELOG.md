@@ -1,3 +1,6 @@
+v1.2.0:
+- new unity debug using UIToolkit 
+
 v1.1.5:
 - fix drawing of const fields in unity inspector
 
