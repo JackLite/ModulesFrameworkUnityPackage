@@ -1,5 +1,8 @@
 v1.2.0:
-- new unity debug using UIToolkit 
+- Entity.IsEmpty() and DataWorld.IsEmptyEntity(int eid) to check if there is any component that binds to entity
+- new API for keys (aka indices)
+- new unity debug using UIToolkit
+- increase speed of Query.GetEntities() 
 
 v1.1.5:
 - fix drawing of const fields in unity inspector
