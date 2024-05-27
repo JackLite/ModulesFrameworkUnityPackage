@@ -1,5 +1,6 @@
 v1.3.0:
-- new types of systems ISubscriptionInitSystem<T> and ISubscriptionActivateSystem<T>
+- new types of systems ISubscriptionInitSystem<T> and ISubscriptionActivateSystem<T>;
+- MF.World is static property that returns main world;
 
 v1.2.0:
 - Entity.IsEmpty() and DataWorld.IsEmptyEntity(int eid) to check if there is any component that binds to entity;
