@@ -1,3 +1,7 @@
+v1.2.1:
+- fix drawer for null;
+- fix destroying debug view of OneData/Entity from OnTrigger/OnCollider, animation events, etc.
+
 v1.2.0:
 - Entity.IsEmpty() and DataWorld.IsEmptyEntity(int eid) to check if there is any component that binds to entity;
 - new API for keys (aka indices);
