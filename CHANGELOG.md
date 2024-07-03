@@ -1,3 +1,6 @@
+v1.2.2:
+- fix collection drawers;
+
 v1.2.1:
 - fix drawer for null;
 - fix destroying debug view of OneData/Entity from OnTrigger/OnCollider, animation events, etc.
