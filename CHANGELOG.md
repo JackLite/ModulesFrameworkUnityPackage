@@ -2,6 +2,16 @@ v1.3.0:
 - new types of systems ISubscriptionInitSystem<T> and ISubscriptionActivateSystem<T>;
 - MF.World is static property that returns main world;
 
+v1.2.3:
+- fix autostart stripping;
+
+v1.2.2:
+- fix collection drawers;
+
+v1.2.1:
+- fix drawer for null;
+- fix destroying debug view of OneData/Entity from OnTrigger/OnCollider, animation events, etc.
+
 v1.2.0:
 - Entity.IsEmpty() and DataWorld.IsEmptyEntity(int eid) to check if there is any component that binds to entity;
 - new API for keys (aka indices);
