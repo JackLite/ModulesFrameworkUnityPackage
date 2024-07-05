@@ -1,3 +1,6 @@
+v1.2.3:
+- fix autostart stripping;
+
 v1.2.2:
 - fix collection drawers;
 
