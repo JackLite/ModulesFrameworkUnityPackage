@@ -3,6 +3,8 @@ v1.3.0:
 - new types of systems ISubscriptionInitSystem<T> and ISubscriptionActivateSystem<T>;
 - MF.World is a static property that returns main world;
 - custom id for entities, based on indices feature;
+- method EcsTable<T>.ClearTable() for remove all data from all entities;
+- method DataQuery.Contains(int eid) to fast check if a query contains a specific entity;
 
 v1.2.3:
 - fix autostart stripping;
