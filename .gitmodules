@@ -14,3 +14,7 @@
 	path = Runtime/MFEntityFilter
 	url = https://github.com/JackLite/MFEntityFilter.git
 	branch = unity_branch
+[submodule "Runtime/MFPrototypes"]
+	path = Runtime/MFPrototypes
+	url = https://github.com/JackLite/MFPrototypes.git
+	branch = main
