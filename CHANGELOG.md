@@ -1,3 +1,12 @@
+v1.3.2:
+- boost queries performance;
+
+v1.3.1:
+- full-name debug settings for debug view;
+- ability to create any reference type from debug view;
+- ability to create OneData from debug view;
+- fixes and minor improvements;
+
 v1.3.0:
 - new feature: entity prototypes;
 - new types of systems ISubscriptionInitSystem<T> and ISubscriptionActivateSystem<T>;
