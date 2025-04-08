@@ -1,6 +1,7 @@
 v1.3.2:
 - boost queries performance;
 - rework multiple worlds, including support in debug view;
+- added external listeners for events;
 
 v1.3.1:
 - full-name debug settings for debug view;
