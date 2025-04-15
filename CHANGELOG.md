@@ -3,6 +3,7 @@ v1.3.2:
 - rework multiple worlds, including support in debug view;
 - added external listeners for events;
 - added composition of modules;
+- added delegate for global dependencies in world;
 
 v1.3.1:
 - full-name debug settings for debug view;
