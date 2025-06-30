@@ -5,6 +5,7 @@ v1.3.2:
 - added composition of modules;
 - added delegate for global dependencies in world;
 - support generics creation in debug window;
+- add assembly filtration into settings
 
 v1.3.1:
 - full-name debug settings for debug view;
