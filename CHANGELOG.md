@@ -1,6 +1,3 @@
-v1.4.0:
-- add debug by module and by system through pausing run cycle of modules by debug view;
-
 v1.3.2:
 - boost queries performance;
 - rework multiple worlds, including support in debug view;
