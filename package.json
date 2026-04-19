@@ -2,7 +2,7 @@
   "name": "com.jacklite.modules_framework_unity_package",
   "version": "1.4.1",
   "description": "Modules Framework provides a way to create truly modular architecture in Unity. Using it's lightweight set of abstractions you can focus on the game instead of solving growing bunch of technical problems.",
-  "displayName": "Modules Framework for Unity [1.4.1.6]",
+  "displayName": "Modules Framework for Unity [1.4.1.7]",
   "unity": "2021.3",
   "documentationUrl": "https://github.com/JackLite/ModulesFrameworkUnity#readme",
   "author": {
