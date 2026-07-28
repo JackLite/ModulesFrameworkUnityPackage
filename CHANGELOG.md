@@ -1,3 +1,7 @@
+v1.4.1:
+- add Watchers;
+- add Go To Entity for EntityDrawer;
+
 v1.3.2:
 - boost queries performance;
 - rework multiple worlds, including support in debug view;
